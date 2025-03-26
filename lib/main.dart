@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:SifuentesCurso/mi_widgets/dialogo_acerca_de.dart';
+import 'package:SifuentesCurso/mi_widgets/dialogo_list_tile.dart';
+//import 'package:SifuentesCurso/mi_widgets/dialogo_acerca_de.dart';
 //import 'package:SifuentesCurso/mi_widgets/mi_tarjeta.dart';
 
 void main() => runApp(MiTarjeta());
@@ -20,7 +21,8 @@ class MiTarjeta extends StatelessWidget {
           centerTitle: true,
         ),
         //body: const LaTarjeta(),
-        body: const DialogoAcercaDe(),
+        //body: const DialogoAcercaDe(),
+        body: const DialogoListTile(),
       ),
     );
   }
